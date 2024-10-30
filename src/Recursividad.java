@@ -45,7 +45,7 @@ public class Recursividad {
      * @param exponente the exponent to raise the base to.
      * @return the result of base raised to the power of exponente.
      */
-    public static int potencia(int base, int exponente) {
+    public int potencia(int base, int exponente) {
         // Caso base: cualquier número elevado a la potencia de 0 es 1
         if (exponente == 0) {
             return 1;
@@ -69,7 +69,7 @@ public class Recursividad {
      * @param numero the number whose digits are to be summed.
      * @return the sum of the digits of the given number.
      */
-    public static int sumaDigitos(int numero) {
+    public int sumaDigitos(int numero) {
         // Caso base: si el número es menor que 10, es un solo dígito
         if (numero < 10) {
             return numero;

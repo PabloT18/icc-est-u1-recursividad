@@ -1,5 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Recursividad recursividad = new Recursividad();
+
+        System.out.println("Suma de consecutivos de 5: " + recursividad.sumaConsecutivos(5));
+        System.out.println("Potencia de 7: " + recursividad.potencia(7, 2));
+        System.out.println("Suma de digitos del 456: " + recursividad.sumaDigitos(456));
+
     }
 }
