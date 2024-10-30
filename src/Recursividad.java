@@ -77,4 +77,26 @@ public class Recursividad {
         // Caso recursivo: sumar el último dígito a la suma de los dígitos restantes
         return (numero % 10) + sumaDigitos(numero / 10);
     }
+
+    /**
+     * Calculates the nth Fibonacci number.
+     *
+     * Serie de Fibonacci
+     * Función recursiva: Calcula el enésimo número de Fibonacci.
+     * 
+     * Caso base: Si n es 0, devuelve 0. Si n es 1, devuelve 1.
+     * Caso recursivo: Si n es mayor que 1, devuelve la suma de los dos números
+     * de Fibonacci anteriores.
+     * 
+     * @param n the position in the Fibonacci sequence.
+     * @return the nth Fibonacci number.
+     */
+    public int fibonacci(int n) {
+        // Caso base: si n es 0 o 1, devolver n
+        if (n == 0 || n == 1) {
+            return n;
+        }
+        // Caso recursivo: sumar los dos números de Fibonacci anteriores
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
 }
