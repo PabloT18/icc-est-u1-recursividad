@@ -138,4 +138,4 @@ Para contribuir a este proyecto, realiza un fork y envía un pull request, o abr
 
 ## Autores
 
-- [Tu Nombre] - Desarrollo inicial
+- [Pablo Torres] - Desarrollo inicial
